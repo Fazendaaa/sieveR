@@ -1,0 +1,6 @@
+services:
+  siever:
+    build: .
+    command: Rscript inst/plumber.R
+    ports:
+      - "80:80"

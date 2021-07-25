@@ -1,0 +1,14 @@
+
+^codecov\.yml$
+^_pkgdown\.yml$
+^HISTORY\.md$
+^\.lintr$
+^\.github$
+^\.dockerignore$
+^docker\-compose\.yml$
+^\Dockerfile$
+^\Makefile$
+^docs$
+^\.circleci$
+^sieveR\.Rproj$
+^\.Rproj\.user$

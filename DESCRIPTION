@@ -1,16 +1,38 @@
 Package: sieveR
-Title: What the Package Does (One Line, Title Case)
+Title: REST implementation of Sieve of Eratosthenes
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Lucas",
+           family = "Caroota",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
+           email = "lucas.carotta@outlook.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Description: A Sieve of Eratosthenes implementation exposing it as REST API to
+             be consumed in RSMD tutorial.
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://github.com/Fazendaaa/sieveR
+BugReports: https://github.com/Fazendaaa/sieveR/issues
+Imports: 
+    assertthat (>= 0.2.1),
+    magrittr (>= 2.0.1),
+    plumber (>= 1.1.0),
+    Rcpp
+Suggests: 
+    testthat (>= 3.0.2),
+    spelling (>= 2.2),
+    covr (>= 3.5.1),
+    lintr (>= 2.0.1),
+    roxygen2 (>= 7.1.1),
+    pkgdown (>= 1.6.1),
+    devtools (>= 2.4.1),
+    goodpractice (>= 1.0.2),
+    rmarkdown (>= 2.8),
+    knitr (>= 1.33)
+Language: en-US
+LinkingTo: 
+    Rcpp
+Config/testthat/edition: 3

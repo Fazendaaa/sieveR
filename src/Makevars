@@ -1,0 +1,7 @@
+CC = gcc -fopenmp=libgomp
+CXX = g++ -fopenmp=libgomp
+CFLAGS = -g -O2 -Wall -pedantic -fstack-protector-strong -D_FORTIFY_SOURCE=2 $(LTO) -D__MUSL__ -I"/usr/lib/omp/"
+CXXFLAGS = -g -O2 -Wall -pedantic -fstack-protector-strong -D_FORTIFY_SOURCE=2 $(LTO) -D__MUSL__ -I"/usr/lib/omp/"
+CXX98FLAGS = -g -O2 -Wall -pedantic -fstack-protector-strong -D_FORTIFY_SOURCE=2 -D__MUSL__ -I"/usr/lib/omp/"
+CXX11FLAGS = -g -O2 -Wall -pedantic -fstack-protector-strong -D_FORTIFY_SOURCE=2 -D__MUSL__ -I"/usr/lib/omp/"
+CXX14FLAGS = -g -O2 -Wall -pedantic -fstack-protector-strong -D_FORTIFY_SOURCE=2 -D__MUSL__ -I"/usr/lib/omp/"
