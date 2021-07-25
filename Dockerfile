@@ -23,3 +23,5 @@ RUN [ "R", "-e", "devtools::test()" ]
 RUN [ "R", "-e", "devtools::install_local('.')" ]
 
 COPY inst/ inst/
+
+ENTRYPOINT [ "Rscript", "inst/plumber.R" ]
